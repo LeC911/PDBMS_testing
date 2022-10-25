@@ -1,0 +1,14 @@
+WARNING:root:In Pdbms.use_db(): Database 'test_db4'not found in 'testDB' directory
+WARNING:root:In TxtDB.delete(): Table 'test_table1.csv' not found
+WARNING:root:In TxtTable.delete():Unknown field name 'Count' in query options
+WARNING:root:In TxtDB.select(): Table 'test_table1.csv' not found
+WARNING:root:In TxtTable.select():Unknown field name 'Count' in query options
+WARNING:root:In TxtDB.insert(): Table 'test_table5.csv' not found
+WARNING:root:In TxtTable.insert():Unknown field name 'test_col3' in inserted data
+WARNING:root:In TxtTable.insert(): Inserted data should be dictionary,but there is <class 'tuple'>
+WARNING:root:In Pdbms.get_active_db(): No database selected
+WARNING:root:In TxtDB.create_table(): The name of the object '<class 'src.PDBMS.txt_db.TxtDB'>' is an empty string
+WARNING:root:In TxtDB.create_table(): Table 'test_table1.csv' already exists
+WARNING:root:In Pdbms.use_db(): Database 'test_db4'not found in 'testDB' directory
+WARNING:root:In Pdbms.create_db(): The name of the object '<class 'src.PDBMS.pdbms.Pdbms'>' is an empty string
+WARNING:root:In Pdbms.create_db(): Database 'test_db1'already exists in the 'testDB' directory
